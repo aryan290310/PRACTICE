@@ -1,0 +1,10 @@
+//x-2x+3x-4x...20
+for(i=1;i<20;i=i+1)
+{
+if(i%2==0){
+    console.log("-"+i+"x")
+} 
+else{
+    console.log(i+"x")
+}   
+}
