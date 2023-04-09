@@ -1,0 +1,12 @@
+//x-2x+3x-4x+5x...-20x
+sum=0
+x=6
+for(i=1;i<20;i++){
+    if(i%2==0){
+     sum=sum-i*x   
+    }
+    else{
+        sum=sum+(i*x)
+    }
+}
+console.log(sum)
